@@ -1,0 +1,21 @@
+{
+    "name": "reign-of-monsters-themes",
+    "displayName": "Reign of Monsters Themes",
+    "description": "Visual Studio Themes based in the monsters out there.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gojira Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gojira-color-theme.json"
+            }
+        ]
+    }
+}
